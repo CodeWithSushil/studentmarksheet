@@ -8,7 +8,7 @@ include_once('dbcon.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Student Marksheet</title>
-  <link href="src/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container-fluid">
@@ -87,6 +87,6 @@ while($row = mysqli_fetch_assoc($result)) {
   </div>
   </div>
 
-  <script src="src/bootstrap.min.js"></script>
+  <script src="bootstrap.min.js"></script>
 </body>
 </html>
