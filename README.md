@@ -8,6 +8,4 @@ This is students Rrecords project for students.
 
 3. Start Apache webserver and mariaDB
 
-4. click to {% blockquote author URL http://0.0.0.0:8080 %}
-localhost
-{% endblockquote %}
+4. click to {% blockquote localhost:8080 URL http://0.0.0.0:8080 %}
