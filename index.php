@@ -1,5 +1,5 @@
 <?php
-include_once('dbcon.php');
+include_once("./php/dbcon.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,13 +8,13 @@ include_once('dbcon.php');
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Student Marksheet</title>
-  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="./assete/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6">
-        <form class="mx-auto" method="post" action="add_data.php">
+        <form class="mx-auto" method="post" action="./php/add_data.php">
           <div class="mb-3 mt-3">
             <label for="name" class="form-label">Name:</label>
             <input type="text" class="form-control" placeholder="Full Name" id="name" name="name" required>
@@ -87,6 +87,6 @@ while($row = mysqli_fetch_assoc($result)) {
   </div>
   </div>
 
-  <script src="bootstrap.min.js"></script>
+  <script src="./assete/js/bootstrap.min.js"></script>
 </body>
 </html>

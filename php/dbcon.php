@@ -8,8 +8,9 @@ $database = "result";
 $dbcon = mysqli_connect($server, $username, $password, $database);
 
 //connection checking
-if (!$dbcon) {
-    die("Connection failed". mysqli_connect_error());
+if (!$dbcon)
+{
+  die("Connection failed". mysqli_connect_error());
 }
 
 ?>
